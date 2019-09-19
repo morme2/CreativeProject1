@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/product.css" />
     <title>MO Photography</title>
+
 </head>
 
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
@@ -54,17 +55,30 @@
                     <li>Eyes that will stare into your soul!!</li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-1 rightSide">
                 <p class="price">
                     Price: $8.99
+                    <span class="shipping">
+                    plus $2.99 shipping
+                    </span>
+                </p>
+                <p>
+                    Left in Stock:
+                    <span style="color: #18BF00;"><b>3</b></span>
                 </p>
                 <button onclick="buyAlert()">Buy now!</button>
+                <script>
+                    function buyAlert() {
+                        alert("Congratulations! You just bought a Hand Squirrel!");
+                    }
+                </script>
+                <hr>
+                <p>
+                    Guaranteed delivery by:
+                    <b>9/25/19</b>    
+                </p>
             </div>
-            <script>
-                function buyAlert() {
-                    alert("Congratulations! You just bought Squirrel Hands!");
-                }
-            </script>
+
         </div>
     </div>
 
@@ -80,7 +94,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="https://github.com/BYUCS260/lab1-html-css-morme2">Github <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://github.com/morme2/CreativeProject1.git">Github <span class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>

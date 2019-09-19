@@ -12,11 +12,11 @@ h1 {
 }
 
 body {
-    background-color: #777;
+    background-color: #EEEEEE;
 }
 
 .about {
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
@@ -33,9 +33,23 @@ body {
 }
 
 .price{
-    color: #05FB00;
+    color: red;
 }
 
 .navbar{
-    background-color: blue !important;
+    background-color: #001BFF !important;
+}
+
+.rightSide{
+    border-style:solid;
+    border-width: 1px;
+}
+
+.shipping{
+    color: red;
+    font-size: x-small;
+}
+
+.stock{
+    color: green;
 }
